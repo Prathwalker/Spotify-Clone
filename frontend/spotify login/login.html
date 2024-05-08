@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="login.html">
+          <img src="image\spotifywhitelogo.png" />
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <div class="main">
+        <h1>Login to Spotify</h1>
+        <div class="account">
+          <button class="acbtn" id="googlebtn">
+            <img src="image\google-logo-9808.png" /><span
+              >Continue with Google</span
+            >
+          </button>
+          <button class="acbtn" id="facebookbtn">
+            <img src="image\facebooklogo.png" /><span
+              >Continue with Facebook</span
+            >
+          </button>
+          <button class="acbtn" id="applebtn">
+            <img src="image\applelogo.png" /><span>Continue with Apple</span>
+          </button>
+        </div>
+
+        <hr />
+
+        <div class="login">
+          <form>
+            <label>Email Or Username</label>
+            <input type="text" placeholder="Email Or Username" />
+
+            <label>Password</label>
+            <input type="Password" placeholder="Password" />
+
+            <div class="switch">
+              <input type="checkbox" id="switch" checked />
+              <label for="switch"></label>
+              <span>Remember me</span>
+            </div>
+
+            <button>Login</button>
+
+            <a href="#">Forgot your Password?</a>
+
+          </form>
+        </div>
+
+        <hr>
+
+        <div class="last">
+          <span>Dont Have account?</span>
+          <a href="#">Sign up for Spotify</a>
+        </div>
+
+
+
+      </div>
+    </section>
+  </body>
+</html>
