@@ -1,7 +1,3 @@
-Certainly! Below is a README.md file for a Spotify clone project that includes both frontend and backend, along with features like login, signup, adding songs to playlists, play, pause, next, previous, and volume control.
-
----
-
 # Spotify Clone
 
 This project is a Spotify clone that replicates some of the core functionalities of the popular music streaming service. It includes both frontend and backend components and features login, signup, adding songs to playlists, and playback controls such as play, pause, next, previous, and volume control.
